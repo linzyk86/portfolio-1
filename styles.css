@@ -59,6 +59,10 @@ a.navbar-brand img{
 	max-width: 2em;
 }
 
+.card-img-top{
+	
+}
+
 footer{
 	background-color: #3f3f3f;
 	color: #d5d5d5;
@@ -72,7 +76,9 @@ hr.light{
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 }
-
+footer h6{
+	text-align: center;
+}
 footer p{
 	font-size: .7em;
 }
