@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>L. White Portfolio</title>
+	<meta name="viewport" content="width=device-width, inital-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+	<!--nav bar-------------------->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img class=" rounded-circle" src="./img/logo3.png"></a>
+			<!--hamburger icon-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!--nav links-->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="projects.html">Projects</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--jumbotron-------------------->
+	<div class="container-fluid">
+		<div class="row jumbotron text-center">
+			<div class="container-fluid">
+				<h1 class="display-2  text-center">Hello, World</h1>
+				<h3 class="lead">I'm Lindsay. Welcome to my portfolio.</h3>
+
+				<a class="nav-link" href="projects.html">
+
+					<button type="button" class="btn btn-outline-dark btn-lg text">Projects</button>
+				</a>
+			</div>
+
+		</div>
+	</div>
+
+
+
+	<!--fixed image-----------------
+
+	<figure>
+		<div class="fixed-wrap img-fluid">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+
+	--->
+
+	<!--cards-------------------->
+
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Featured Projects</h1>
+			</div>
+			<hr>
+		</div>
+	</div>
+
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<a href="https://react-memory-game1.vercel.app/">
+						<img class="card-img-top" src="./img/memory-game.png">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">React Memory Game</h4>
+						<p class="card-text">A card matching memory game build with React. Currently working on adding a
+							'score' component and updating the number of moves.</p>
+						<a href="pixel_art_maker2/index.html" class="btn btn-outline-secondary">Check it out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<a href="https://react-redux-app-umber.vercel.app/">
+						<img class="card-img-top" src="img/react-redux-kanye-quotes.png">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Bootstrap Site</h4>
+						<p class="card-text">A one page website made with HTML, CSS and Bootstrap. Includes an image
+							carousel, a fixed background image, and is fully responsive.</p>
+						<a href="https://react-redux-app-umber.vercel.app/" class="btn btn-outline-secondary">Check it
+							out</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+
+					<a href="https://js-to-do.vercel.app/">
+						<img class="card-img-top" src="img/to-do-img.png">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">To-Do List</h4>
+						<p class="card-text">A to-do app that lets you add, cross out, and delete list items. Input area can toggle shown or hidden with the plus button. This project was built with jQuery.</p>
+						<a href="https://js-to-do.vercel.app/" class="btn btn-outline-secondary">Check it out
+						</a>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<a href="https://pixel-art-delta.vercel.app/">
+						<img class="card-img-top" src="img/pixel_img.png">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Pixel Art Maker</h4>
+						<p class="card-text">A JavaScript app that lets you choose the size of your grid, choose a
+							color, and then click on the grid to color it in.</p>
+						<a href="https://pixel-art-delta.vercel.app/" class="btn btn-outline-secondary">Check it out</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<a href="bootstrap_project/bootstrap_project.html">
+						<img class="card-img-top" src="bootstrap_project_img.png">
+					</a>
+					<div class="card-body">
+						<h4 class="card-title">Bootstrap Site</h4>
+						<p class="card-text">A one page website made with HTML, CSS and Bootstrap. Includes an image
+							carousel, a fixed background image, and is fully responsive.</p>
+						<a href="bootstrap_project/bootstrap_project.html" class="btn btn-outline-secondary">Check it
+							out</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+
+	<!--carousel--------------------
+		<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/img3.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Project page</h1>
+					<h3>Check it out!</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Projects</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/img1.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Roses are red</h1>
+					<h3>Hydrangeas are blue</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Check it out!</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/img2.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Ah! Birds!</h1>
+					<h3>Blah blah</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Click for more info!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+
+
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<hr class="light">
+					<h6>Contact</h6>
+					<hr class="light">
+					<p>123 Address Street</p>
+					<p>123-456-7890</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h6>Contact</h6>
+					<hr class="light">
+
+					<p>123 Address Street</p>
+					<p>123-456-7890</p>
+				</div>
+				<div class="col-md-4">
+					<hr class="light">
+					<h6>Contact</h6>
+					<hr class="light">
+					<p>123 Address Street</p>
+					<p>123-456-7890</p>
+				</div>
+
+				<div class="col-12">
+					<hr class="light">
+					<h6>&copy; L. White 2019</h6>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+
+</html>

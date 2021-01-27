@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap project</title>
+	<meta name="viewport" content="width=device-width, inital-scale=1">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<link href="bootstrap_project.css" rel="stylesheet">
+</head>
+<body>
+	<!--nav bar-------------------->
+	<div class="container-fluid">
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"><img src=""></a>
+			<!--hamburger icon-->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!--nav links-->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Reservations</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!--carousel-------------------->
+
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/img1.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Trip Planner</h1>
+					<h3>An easier way to plan your getaway.</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Check it out!</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/img2.jpeg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Beach or mountains?</h1>
+					<h3>Let us help.</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Check it out!</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/img3.jpeg">
+				<div class="carousel-caption">
+					<h1 class="display-2">Lake sounds nice.</h1>
+					<h3>Get started.</h3>
+					<button type = "button" class="btn btn-outline-light btn-lg">Click for more info!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--jumbotron-------------------->
+	<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Cauliflower salsify kohlrabi okra sea lettuce broccoli celery lotus root carrot winter purslane turnip greens garlic. Jícama garlic courgette coriander radicchio plantain scallion.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary-btn-lg">Read more</button></a>
+		</div>
+
+	</div>
+</div>
+
+<!--info section-------------------->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Our Philosophy</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
+		</div>
+	</div>
+</div>
+
+<!--3 column section-------------------->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<h3>Best Price Guarantee</h3>
+		<p>Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke .</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<h3>Free Cancellations</h3>
+		<p>Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4">
+		<h3>Book Today!</h3>
+		<p> Brussels sprout cabbage. Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper.</p>
+	</div>
+</div>
+<hr class="my-4">
+</div>
+
+
+
+	<!--fixed image-------------------->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+			</div>
+		</div>
+	</figure>
+
+
+
+
+
+	<!--cards-------------------->
+
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Beach Vacations</h1>
+			</div>
+		<hr>
+		</div>
+	</div>
+
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/pinkP6.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Fiji</h4>
+						<p class="card-text">Turnip leek lentil turnip greens black-eyed pea.</p>
+						<a href="#" class="btn btn-outline-secondary">Read more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/pinkP3.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Bahamas</h4>
+						<p class="card-text">Turnip leek lentil turnip greens black-eyed pea.</p>
+						<a href="#" class="btn btn-outline-secondary">Read more</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="card">
+					<img class="card-img-top" src="img/pinkP8.jpg">
+					<div class="card-body">
+						<h4 class="card-title">Jamaica</h4>
+						<p class="card-text">Turnip leek lentil turnip greens black-eyed pea.</p>
+						<a href="#" class="btn btn-outline-secondary">Read more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<hr class="light">
+				<h6>Contact</h6>
+				<hr class="light">
+				<p>123 Address Street</p>
+				<p>123-456-7890</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h6>Reservations</h6>
+				<hr class="light">
+				<p>reservations@tripplanner.com</p>
+				<p>123-456-7890</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h6>Travel Alerts</h6>
+				<hr class="light">
+				<p>Health And Travel Alerts</p>
+				<p>Covid-19</p>
+				
+
+			</div>
+
+			<div class="col-12">
+				<hr class="light">
+				<h6>&copy; L. White 2019</h6>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	
+
+
+	</body>
+</html>

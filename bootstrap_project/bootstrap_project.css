@@ -1,0 +1,124 @@
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+
+#fixed{
+	background-image:url(img/pinkL6.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+	min-height: 500px;
+
+}
+
+.carousel-inner img{
+	height: 100%;
+	width:100%;
+}
+
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);	
+}
+
+.carousel-caption h1{
+	text-shadow: 5px 5px 15px #000;
+	font-size: 5em;
+}
+
+.carousel-caption h3{
+	font-size: 2em;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+ 
+}
+
+.jumbotron{
+	border-radius: 0;
+	padding: 2rem;
+}
+.btn{
+	padding: 5px;
+}
+.padding{
+	padding-bottom: 2rem;
+}
+
+.welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+
+}
+
+hr.light{
+	border-top: 1px solid #d5d5d5;
+	width:75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer p{
+	font-size: .7em;
+}
+
+
+
+
+
+
+
+
+/*media queries............*/
+
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) { 
+
+}
+
+@media (max-width: 768px) { 
+	.carousel-caption{
+		top:35%;
+		
+	}
+
+	.carousel-caption h1{
+		font-size: 350%;
+	
+	}
+
+	.carousel-caption h3{
+		font-size: 140%;
+		padding-bottom: .2rem;
+	}
+
+	.carousel-caption .btn{
+		font-size: 95%;
+		padding: 8px;
+	}
+
+}
+
+
+ @media (max-width: 576px) { 
+
+}
+
+
+
