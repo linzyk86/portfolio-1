@@ -18,51 +18,24 @@
 		crossorigin="anonymous"></script>
 	<link href="styles.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-
+ <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap"
+      rel="stylesheet"
+    />
 
 </head>
 
 
 <body>
 
-	<!--nav bar-------------------->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><img class=" rounded-circle" src="./img/logo3.png"></a>
-			<!--hamburger icon-->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<!--nav links-->
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="projects.html">Projects</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
 	<!--jumbotron-------------------->
-	<div class="container-fluid">
-		<div class="row jumbotron text-center">
+	<div class="jumbotron">
+		<div class="row  text-center">
 			<div class="container-fluid">
-				<h1 class="display-2  text-center">Hello, World</h1>
-				<h3 class="lead">I'm Lindsay. Welcome to my portfolio.</h3>
-
-				<a class="nav-link projects" href="projects.html">
-
-					<button type="button" class="btn btn-outline-dark btn-lg text">Projects</button>
-				</a>
+				<h1 class="display-2  text-center">Lindsay White</h1>
+				<h3 class="lead">Full Stack Web Developer</h3>
+				<br/>
+				<br/>
 			</div>
 
 		</div>
@@ -70,16 +43,7 @@
 
 
 
-	<!--fixed image-----------------
-
-	<figure>
-		<div class="fixed-wrap img-fluid">
-			<div id="fixed">
-			</div>
-		</div>
-	</figure>
-
-	--->
+	
 
 	<!--cards-------------------->
 
@@ -96,62 +60,55 @@
 		<div class="row padding">
 			<div class="col-md-4">
 				<div class="card">
-
+					<img class="card-img-top" src="img/to-do-img.png">
+					
 					<a href="https://js-to-do.vercel.app/">
-						<img class="card-img-top" src="img/to-do-img.png">
-					</a>
 					<div class="card-body">
 						<h4 class="card-title">To-Do List</h4>
 						<p class="card-text">A to-do app that lets you add, cross out, and delete list items. Input area
 							can toggle shown or hidden with the plus button. This project was built with jQuery.</p>
-						<a href="https://js-to-do.vercel.app/" class="btn btn-outline-secondary">Check it out
-						</a>
-
 					</div>
-
-				</div>
-			</div>
-
-			<div class="col-md-4">
-				<div class="card">
-					<a href="https://react-memory-game1.vercel.app/">
-						<img class="card-img-top" src="./img/memory-game1.png">
 					</a>
-					<div class="card-body">
-						<h4 class="card-title">React Memory Game</h4>
-						<p class="card-text">A card matching memory game build with React. Currently working on adding a
-							'score' component and updating the number of moves.</p>
-						<a href="pixel_art_maker2/index.html" class="btn btn-outline-secondary">Check it out</a>
-					</div>
+
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="card">
-					<a href="https://pixel-art-delta.vercel.app/">
 						<img class="card-img-top" src="img/pixel_img.png">
-					</a>
+					<a href="https://pixel-art-delta.vercel.app/">
 					<div class="card-body">
 						<h4 class="card-title">Pixel Art Maker</h4>
 						<p class="card-text">A JavaScript app that lets you choose the size of your grid, choose a
-							color, and then click on the grid to color it in.</p>
-						<a href="https://pixel-art-delta.vercel.app/" class="btn btn-outline-secondary">Check it out</a>
+							color, and then click on the grid to color it in.</p>	
 					</div>
+					</a>
 				</div>
 			</div>
 
 			<div class="col-md-4">
 				<div class="card">
-					<a href="bootstrap_project/bootstrap_project.html">
 						<img class="card-img-top" src="bootstrap_project_img.png">
-					</a>
+					<a href="bootstrap_project/bootstrap_project.html">
 					<div class="card-body">
 						<h4 class="card-title">Bootstrap Site</h4>
 						<p class="card-text">A one page website made with HTML, CSS and Bootstrap. Includes an image
 							carousel, a fixed background image, and is fully responsive.</p>
-						<a href="bootstrap_project/bootstrap_project.html" class="btn btn-outline-secondary">Check it
-							out</a>
 					</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="col-md-4" >
+				<div class="card">
+						<img class="card-img-top" src="./img/memory-game-img.png">
+					<a href="https://react-memory-game1.vercel.app/">
+					<div class="card-body">
+						<h4 class="card-title">React Memory Game</h4>
+						<p class="card-text">A card matching memory game build with React. Currently working on adding a
+							'score' component and updating the number of moves.</p>
+					</div>
+					</a>
 				</div>
 			</div>
 		</div>
